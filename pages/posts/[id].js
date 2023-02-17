@@ -1,8 +1,8 @@
-import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import Layout from '../../components/layout';
 
 // get all Post data on the base of post ID
 export async function getStaticProps({ params }) {
